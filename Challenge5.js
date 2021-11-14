@@ -4,8 +4,8 @@ let bill = [275, 40, 430];
 let percentage;
 let totalTips; 
 
-function calculTips(totalTips, percentage) {
-    let tips = totalTips * percentage;
+function calculTips(bill, percentage) {
+    let tips = bill * percentage;
     return tips;
 }
 
