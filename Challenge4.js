@@ -36,7 +36,7 @@ function compareScore(array1, array2) {
             else if (averageScore(array1[i]) == averageScore(array2[i])) {
                 console.log("Match nul pour la partie " + (i + 1));
             }
-        }   else {
+        } else {
                 console.log("Il faut au moins 100 points pour gagner.")
             }
         }
